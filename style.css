@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+h1,
+.model {
+    padding: 0 0 0 133px;
+}
+
+.dsc,
+.btn_buy {
+    padding: 0 0 0 135px;
+    /* шо с этим делать  */
+}
+
+h1 {
+    margin-bottom: 43px;
+    height: 215px;
+    max-width: 888px;
+    margin-top: 53px;
+    font-weight: 300;
+    font-size: 250px;
+    line-height: 230px;
+    color: #272727;
+
+
+}
+
+img {
+    max-width: 100%;
+}
+
+.model {
+    margin-top: 100px;
+}
+
+.main {
+    max-width: 1430px;
+    height: 939px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap-reverse;
+
+}
+
+.dsc {
+    width: 575px;
+    margin-bottom: 61px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 50px;
+    color: #161515;
+}
+
+.wrapper {
+
+    display: flex;
+}
+
+.img_first {
+    width: auto;
+    height: auto;
+    gap: 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0 230px 0 0;
+}
+
+
+.btn_buy {
+    border: 3px solid black;
+    display: inline-block;
+    padding: 26px 74px 35px 73px;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 29px;
+    color: #FFFFFF;
+    background-color: black;
+    margin-left: 135px;
+}
+
+.btn_prise {
+    border: 3px solid white;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 60px;
+    text-align: center;
+    color: #272727;
+    padding: 13px 27px 31px 28px;
+    background: white;
+}
+
+
+.models,
+footer {
+    position: relative;
+    margin: auto;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 0;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 81px;
+    color: #000000;
+}
+
+.models img {
+    background-color: #F8F8F8;
+}
+
+h4 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.models p {
+    padding: 17px 454px 85px 454px;
+    font-weight: 300;
+    font-size: 32px;
+    line-height: 50px;
+    color: #161515;
+
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 186%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #161515;
+}
+
+footer p {
+    padding: 58px 464px 142px 464px;
+    text-align: justify;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 41px;
+    color: #161515;
+}
+.detail{
+    text-decoration: none;
+    color: #BB8B5D;
+}
